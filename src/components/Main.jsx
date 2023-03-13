@@ -53,8 +53,6 @@ export const Main = () => {
     return acc;
   }, {});
 
-  console.log('e', arrayData);
-
   // calculate duration in days of an employee's project
   const calcDuration = ({ dateFrom, dateTo }) => {
     if (!dateTo || dateTo.toLowerCase() === 'null') {
